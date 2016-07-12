@@ -1,0 +1,43 @@
+html {
+  background-image: linear-gradient(#FF8682, #FFB2AC);
+}
+
+header {
+  display: block;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: serif;
+  color: #FFFBD1;
+}
+
+h4 {
+  font-size: 1em;
+  color: #FFFBD1;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+nav {
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 1em;
+  font-family: times;
+  color: #F5F1BD;
+}
