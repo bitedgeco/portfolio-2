@@ -12,9 +12,14 @@ a:visited {
 
 .site-header {
   align-content: center;
+  position: relative;
 }
 
-.social {
-  margin-left: -3%;
+
+.fa-bars {
+  height: 3em;
+  width: 3em;
+  display: block;
+  position: absolute;
+  left: 1%;
 }
- 
