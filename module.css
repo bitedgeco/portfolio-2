@@ -1,0 +1,36 @@
+@media only screen and (min-width: 770px) {
+  img {
+    height: 300px;
+    width: 300px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .selfie {
+    float: left;
+    clear: right;
+  }
+
+  .family-pic{
+    float: left;
+    clear: right;
+  }
+
+  .site-header {
+    align-content: center;
+  }
+
+  .social {
+    margin-left: -3%;
+  }
+
+}

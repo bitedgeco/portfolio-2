@@ -1,0 +1,19 @@
+a {
+  color: #4623F2;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4623F2;
+  text-decoration: none;
+}
+
+.site-header {
+  align-content: center;
+}
+
+.social {
+  margin-left: -3%;
+}
