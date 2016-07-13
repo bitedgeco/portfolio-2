@@ -1,10 +1,11 @@
 <html>
   <head>
       <title>Corey's Portfolio</title>
-      <meta name="viewport" content="width=deice-width, initial-scale=1">
-      <link rel="stylesheet" href="../portfolio/base.css">
-      <link rel="stylesheet" href="../portfolio/layout.css">
-      <link rel="stylesheet" href="../portfolio/module.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="../portfolio/css/base.css">
+      <link rel="stylesheet" href="../portfolio/css/layout.css">
+      <link rel="stylesheet" href="../portfolio/css/module.css">
   </head>
   <body>
     <header class="site-header">
@@ -13,20 +14,33 @@
         <h4>T. 206-787-0432</h4>
         <h4>E. coreymalek1@gmail.com</h4>
       </section>
-      <nav class="social">
-        <ul>
+      <div class="icon">
+        <i class="fa fa-bars"></i>
+      </div>
+        <ul class="nav">
           <li><a href="www.github.com/coreymalek">GitHub</a></li>
           <li>-</li>
           <li><a href="www.facebook.com/coreymalek">Facebook</a></li>
           <li>-</li>
           <li><a href="www.instagram.com/coreymalek">Instagram</a></li>
         </ul>
-      </nav>
+
       </header>
+      <section id="repos">
+        <article class="template">
+          <header>
+            <h1 class="project-title">Title</h1>
+            <div class="byline">
+              By <address><a class="author-url" href="">Author Name</a></address>
+              published <time pubdate datetime="2000-01-01">Publish Time</time>
+            </div>
+          </header>
+        </article>
+      </section>
       <section class="desktop">
         <div class="me">
           <div class="selfie">
-            <img src="../portfolio/imgs/selfie-portfolio.jpg" height="200px" width="250px">
+            <img src="../portfolio/imgs/selfie-portfolio.jpg" height="200px" width="225px">
           </div>
             <p><em>My name is Corey. I'm 24 years old and I'm from Las Vegas, Nevada. Prior to web development, I worked various jobs in retail and a little in the restaurant business before deciding that I needed a change of pace. In August 2015, I decided to pack my things and head (north)west and have been in Seattle, WA ever since. Some of my hobbies include coding, video games, and reading, but my favorite thing to do is take walks in nature. Growing up in a desert has made me appreciate all of the greenery the PNW has to offer. I started my journey as a software developer with Codefellows in April 2016, and plan to make this my full time career!</em></p>
         </div>
@@ -39,5 +53,9 @@
         </div>
       </section>
 
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+      <script rel="text/javascript" src="githubRepos.js"></script>
+      <script rel="text/javascript" src="app2.js"></script>
+      <script rel="text/javascript" src="app.js"></script>
       </body>
-      </html> 
+      </html>

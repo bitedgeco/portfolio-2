@@ -4,7 +4,7 @@ html {
 
 header {
   display: block;
-  justify-content: center; 
+  justify-content: center;
 }
 
 h1 {
@@ -18,6 +18,20 @@ h4 {
   color: #FFFBD1;
 }
 
+.nav {
+  display: inline;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.active {
+  display: block;
+
+}
+
 img {
   max-width: 100%;
 }
@@ -26,15 +40,6 @@ body {
   text-align: center;
 }
 
-nav {
-  align-items: center;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
 
 p {
   font-size: 1em;
