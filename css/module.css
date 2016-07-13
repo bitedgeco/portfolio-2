@@ -10,7 +10,7 @@
   }
 
   .nav {
-    display: inline;
+    display: block !important;
   }
 
   .desktop {
@@ -35,5 +35,17 @@
   .social {
     margin-left: -3%;
   }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+  .nav {
+    display: none;
+  }
+
+
+
+
 
 }
