@@ -9,6 +9,7 @@ function Repos (opts) {
 
 Repos.prototype.toHtml = function () {
   var $newProject = $('article.template').clone();
+  // $newProject.attr('id', this.title);
   $newProject.find('h1.project-title').text(this.title);
   $newProject.find('a.author-url').text(this.author);
   $newProject.find('a.author-url').attr('href', this.authorUrl);
@@ -32,3 +33,21 @@ ourLocalData.forEach(function(ele) {
 projects.forEach(function(a) {
   $('#repos').append(a.toHtml());
 });
+
+
+
+var portfolioView = {};
+
+portfolioView.handleMainNav = function() {
+  $('section.tab-content section').hide();
+  $('.main-nav').on('click', '.tab', function(){
+    var $dataContent = $(this).attr('data-content');
+    $('section.tab-content section').hide();
+    $('section#' + $dataContent).show();
+
+
+
+
+  });
+};
+portfolioView.handleMainNav();
