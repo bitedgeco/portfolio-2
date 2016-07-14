@@ -7,26 +7,21 @@
   img {
     height: 300px;
     width: 300px;
+    margin: 0 auto;
   }
 
   .nav {
-    display: block !important;
+    display: flex !important;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
   }
 
-  .desktop {
-    display: inline-flex;
-    justify-content: space-around;
+  #about {
+    display: block;
+    clear: both;
   }
 
-  .selfie {
-    float: left;
-    clear: right;
-  }
-
-  .family-pic{
-    float: left;
-    clear: right;
-  }
 
   .site-header {
     align-content: center;

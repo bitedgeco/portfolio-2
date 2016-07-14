@@ -24,20 +24,29 @@
           <li>-</li>
           <li><a href="www.instagram.com/coreymalek">Instagram</a></li>
         </ul>
+        <nav class="main-nav">
+          <ul>
+            <li class="tab" data-content="repos"><a href="#">HOME</a></li>
+            <li class="tab" data-content="about"><a href="#">ABOUT</a></li>
+          </ul>
+        </nav>
 
       </header>
-      <section id="repos">
-        <article class="template">
-          <header>
-            <h1 class="project-title">Title</h1>
-            <div class="byline">
-              By <address><a class="author-url" href="">Author Name</a></address>
-              published <time pubdate datetime="2000-01-01">Publish Time</time>
-            </div>
-          </header>
-        </article>
-      </section>
-      <section class="desktop">
+    <section class="tab-content">
+        <section id="repos" class="repos-content">
+
+          <article class="template">
+            <header>
+
+              <h1 class="project-title">Title</h1>
+              <div class="byline">
+                By <address><a class="author-url" href="">Author Name</a></address>
+                published <time pubdate datetime="2000-01-01">Publish Time</time>
+              </div>
+            </header>
+          </article>
+        </section>
+      <section id="about">
         <div class="me">
           <div class="selfie">
             <img src="../portfolio/imgs/selfie-portfolio.jpg" height="200px" width="225px">
@@ -52,6 +61,7 @@
           <p><em>I currently live in a neighborhood called Greenwood, just north of downtown Seattle, with my girlfriend Michelle and our puppy Gatsby. We rescued Gatsby in March 2016 and from what we can determine just by looking at her, she is a mixture of Labrador, Beagle, Pointer, and Rottweiler, although her vet has confirmed that her DNA likely includes a lot of other breeds! My family is my foundation, and has played a major role in my recent career switch.</em></p>
         </div>
       </section>
+    </section>
 
       <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
       <script rel="text/javascript" src="githubRepos.js"></script>
