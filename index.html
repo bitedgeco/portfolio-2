@@ -32,10 +32,28 @@
         </nav>
 
       </header>
+
+      <script id="repos-template" type="text/x-handlebars-template">
+        <article class="clearfix" data-author="{{author}}">
+          <header>
+            <h1>{{title}}</h1>
+            <div class="byline">
+              By <address><a href="{{authorUrl}}">{{author}}</a></address>
+              {{publishTime}}
+            </div>
+          </header>
+        </article>
+      </script>
+
+
+
+
+
+
     <section class="tab-content">
         <section id="repos" class="repos-content">
 
-          <article class="template">
+          <!-- <article class="template">
             <header>
 
               <h1 class="project-title">Title</h1>
@@ -44,7 +62,7 @@
                 published <time pubdate datetime="2000-01-01">Publish Time</time>
               </div>
             </header>
-          </article>
+          </article> -->
         </section>
       <section id="about">
         <div class="me">
@@ -64,6 +82,7 @@
     </section>
 
       <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
       <script rel="text/javascript" src="githubRepos.js"></script>
       <script rel="text/javascript" src="app2.js"></script>
       <script rel="text/javascript" src="app.js"></script>
