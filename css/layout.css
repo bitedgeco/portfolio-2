@@ -25,13 +25,17 @@ a:visited {
   display: inline-block;
 }
 
-.me p {
+#me p {
   display: block;
   clear: both;
 }
 
-.family p {
+#family p {
   display: block;
   clear: both;
+}
 
+img {
+  height: 200px; 
+  width: 225px;
 }
