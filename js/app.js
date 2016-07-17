@@ -61,4 +61,11 @@ portfolioView.handleMainNav = function() {
 
   });
 };
+
+$('.icon').on('click', function(){
+  $('.nav').slideToggle('slow');
+  $(this).toggleClass('active');
+});
+  
 portfolioView.handleMainNav();
+
